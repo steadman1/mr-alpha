@@ -186,7 +186,7 @@ class SpeechRecognizer {
     }
 
     func requestTranscript(accessToken: String, audioFileName: String) {
-        let apiKey = "AIzaSyCavUnPtL8I5XXoPwbNx3Bh05toLcDNSRA"
+        let apiKey = "" // removed
         
         let url = URL(string: "https://speech.googleapis.com/v1/speech:longrunningrecognize?key=\(apiKey)")
         var request = URLRequest(url: url!)
